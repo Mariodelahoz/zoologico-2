@@ -13,11 +13,13 @@ export class AgregarAnimalComponent {
     sexo: " "
   }
   
+  
   emitirAnimales(){
     this.emisorAnimales.emit({...this.animal})
     this.animal.nombre=" "
     this.animal.sexo=" "
     }
+    
    
  
 
