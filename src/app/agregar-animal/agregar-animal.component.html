@@ -1,0 +1,9 @@
+<form (ngSubmit)="emitirAnimales()">
+    <input
+    [(ngModel)]="animal.nombre"
+    name="nombre"
+    type="text" class="form-control mb-3" placeholder="nombre">
+    <input [(ngModel)]="animal.sexo"
+    name="sexo">
+    <button type="submit">Agregar Animal</button>
+</form>

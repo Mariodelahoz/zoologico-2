@@ -1,0 +1,19 @@
+<div>
+    <h1 style="padding: 10px;">lista de animales</h1>
+    <h1>formulario</h1>
+
+</div>
+<div class="row">
+    <div class="col">
+        <div class="col"><h1>masculino</h1>
+        </div>
+        <app-mostrar-listado [ListaHija]="anima"></app-mostrar-listado>
+
+    </div>
+    <div class="col">
+        <div class="col"><h1>femenino</h1></div>
+        <app-mostrar-listado [ListaHija]="anima"></app-mostrar-listado>
+        
+</div>
+<br> <app-agregar-animal (emisorAnimales)="agregarAnimales($event)"></app-agregar-animal>
+<app-eliminar-animal (elimAnimal)="elimimarAnimales($event)"> </app-eliminar-animal>
