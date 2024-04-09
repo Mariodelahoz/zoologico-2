@@ -6,11 +6,9 @@ import { animales } from '../interface/interface';
   styleUrl: './mostrar-listado.component.css'
 })
 export class MostrarListadoComponent {
-@Input() public ListaHija: animales []=[
+@Input() public ListaHija: animales []=[]
 
-]
 
-@Input() public ListaHijaa:animales []=[
 
-]
+
 }
